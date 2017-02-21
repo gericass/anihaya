@@ -1,0 +1,114 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+.chara{
+    border:1px white solid;
+    width:200px;
+    height:200px;
+    margin: auto;
+    display:none;
+}
+#ch{
+    width:200px;
+    margin:0 auto;
+    position: relative;
+    bottom:-20px;
+    display: none;
+}
+#characontainer{
+    height:500px;
+}
+body{
+    font-family: 'Noto Sans Japanese', serif;
+}
+a{
+    text-decoration:none;
+    color:#FFFFFF;
+    text-align: center;
+}
+#setu{
+    color:white;
+    text-align: center;
+    cursor: default;
+    border:1px white solid;
+    margin: 0 auto;
+    width:200px;
+}
+.atama{
+    background-color:161616;
+    width: 100%;
+    height: 50px;
+    top:0;
+    margin:0;
+    line-height:50px;
+}
+
+
+
+.atama-left{
+    width:1000px;
+    font-size:35px;
+    margin:0 auto;
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    opacity:0.7;
+    cursor:default;
+    text-align: center;
+}
+
+.kiss{
+    position:relative;
+    height:50px;
+    top:-50px;
+    position: relative;
+    z-index: 2;
+}
+
+
+.sample_04{
+    width: 900px;
+    text-align: center;
+    margin:10 auto;
+    border-collapse: separate;
+    border-spacing:10;
+    empty-cells: hide;
+}
+
+
+
+.sample_04 th{
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    border:1px solid white;
+    font-size:80%;
+    margin:15px;
+    cursor:default;
+}
+
+.sample_04 td{
+    width: 100px;
+    text-align:center;
+    height: 100px;
+    padding:0px;
+    font-size:11px;
+    border:1px ridge white;
+    color: #FFFFFF;
+    empty-cells: hide;
+}
+
+
+
+.sample_04 td   a      {
+    display:block;
+    width:100%;
+    height:100%;
+    line-height:100px;
+    background-color:#27313D
+
+}
+
+.cell:hover{
+    opacity:0.2;
+}
