@@ -60,7 +60,7 @@ a{
     position:relative;
     height:50px;
     top:-50px;
-    position: relative;
+
     z-index: 2;
 }
 
@@ -100,11 +100,11 @@ a{
 
 
 
-.sample_04 td   a      {
+.sample_04 td   a  {
     display:block;
     width:100%;
     height:100%;
-    line-height:100px;
+    line-height:25px;
     background-color:#27313D
 
 }

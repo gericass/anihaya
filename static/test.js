@@ -61,7 +61,7 @@ function cha(){
     var characters=["akari","azusa","nadeko","sinobu","yotugi","yui","asuna"];
     var day=getday();
     //html+="<img id=\"ch\"src=\"img/"+ characters[day] +".png\">";
-    html+="<img id=\"ch\"src=\"img/yotugi.png\">";
+    html+="<img id=\"ch\"src=\"static/IMG_0102.JPG\">";
     document.write(html);
 }
 function getday(){
