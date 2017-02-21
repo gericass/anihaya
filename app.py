@@ -48,7 +48,6 @@ def getjson():
     today = datetime.date.today()
     anijson = request.urlopen('http://nineanimeapi.herokuapp.com/api/?year='+str(today.year)+'&season=Winter')
     js = json.loads(anijson.read())
-    #print(js)
     return js
 
 
